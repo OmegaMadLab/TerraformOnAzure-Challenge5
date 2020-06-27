@@ -10,6 +10,12 @@ I managed the remaining part of the configuration with Terraform.
 
 I executed all the steps above on Ubuntu 18.04 WSL2.
 
+The ouput of *consul members -wan* was:  
+>/ # consul members -wan  
+>Node                  Address           Status  Type    Build       Protocol  DC     Segment  
+>consul-server-0.dc1   10.244.0.12:8302  alive   server  1.8.0beta2  2         dc1    <all>  
+>consul-server-0.eveld 10.244.0.15:8302  alive   server  1.8.0beta2  2         eveld  <all>  
+
 My other repos, on for each challenge:
 + [Challenge 1](https://github.com/OmegaMadLab/TerraformOnAzure-Challenge1)
 + [Challenge 2](https://github.com/OmegaMadLab/TerraformOnAzure-Challenge2)
