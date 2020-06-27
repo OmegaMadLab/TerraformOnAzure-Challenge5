@@ -1,1 +1,17 @@
-# TerraformOnAzure-Challenge5
+# #TerraformOnAzure Challenge - episode 5
+
+The fifth challenge of the [Terraform On Azure](https://github.com/Terraform-On-Azure-Workshop/terraform-azure-hashiconf2020) asks you to provision a one-node consul cluster on the AKS cluster deployed in [Challenge 4](https://github.com/OmegaMadLab/TerraformOnAzure-Challenge4), and to use it to federate with an existing primary datacenter, to create a network between all the webapps deployed by other participants.
+
+We have to deploy Consul via a Helm chart, using the appropriate Terraform provider. Then, we have to create a Public IP and a service to expose our environment, again via Terraform.
+You can read more about the challenge [here](https://github.com/Terraform-On-Azure-Workshop/terraform-azure-hashiconf2020/blob/main/challenges/challenge5/Readme.md).
+
+I used **init.sh** to retrieve the default Helm chart for Consul, to check default values.
+I managed the remaining part of the configuration with Terraform.
+
+I executed all the steps above on Ubuntu 18.04 WSL2.
+
+My other repos, on for each challenge:
++ [Challenge 1](https://github.com/OmegaMadLab/TerraformOnAzure-Challenge1)
++ [Challenge 2](https://github.com/OmegaMadLab/TerraformOnAzure-Challenge2)
++ [Challenge 3](https://github.com/OmegaMadLab/TerraformOnAzure-Challenge3)
++ [Challenge 4](https://github.com/OmegaMadLab/TerraformOnAzure-Challenge4)

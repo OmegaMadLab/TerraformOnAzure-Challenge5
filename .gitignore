@@ -1,0 +1,7 @@
+
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/plugins/linux_amd64/lock.json
+.terraform/plugins/linux_amd64/terraform-provider-azurerm_v2.16.0_x5
+.terraform/plugins/linux_amd64/terraform-provider-helm_v1.2.3_x4
+.terraform/plugins/linux_amd64/terraform-provider-kubernetes_v1.11.3_x4

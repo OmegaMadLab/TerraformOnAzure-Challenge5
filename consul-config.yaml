@@ -1,0 +1,7 @@
+global:
+  name: consul
+  datacenter: omegamadlab
+server:
+  enabled: true
+  bootstrapExpect: 1
+  replicas: 1
